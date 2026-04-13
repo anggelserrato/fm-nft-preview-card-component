@@ -9,12 +9,10 @@
   --color-card-blue-900: hsl(216, 50%, 16%);
   --color-card-blue-800: hsl(215, 32%, 27%);
   --font-card-outfit: 'Outfit', ui-sans-serif, system-ui, sans-serif;
-  --spacing-card-50: 4px;
+  --spacing-card-0: 0px;
   --spacing-card-100: 8px;
-  --spacing-card-150: 12px;
   --spacing-card-200: 16px;
   --spacing-card-300: 24px;
-  --spacing-card-500: 40px;
 }
 
 @layer base {
