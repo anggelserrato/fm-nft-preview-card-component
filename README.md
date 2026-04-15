@@ -24,6 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
+<img width="1920" height="1440" alt="nft preview card component shots" src="https://github.com/user-attachments/assets/dd51014f-cbf5-4dea-a0f1-14acac988a58" />
+
 ### Links
 
 - Solution URL: [View Code](https://github.com/anggelserrato/fm-nft-preview-card-component)
