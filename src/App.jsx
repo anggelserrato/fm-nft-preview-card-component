@@ -18,7 +18,7 @@ export default function App() {
             <img src={iconView} alt="View" />
           </div>
         </figure>
-        <h1 className="mb-card-200 cursor-pointer text-[22px] leading-normal font-semibold transition-colors duration-200 peer-hover:text-card-cyan-400">
+        <h1 className="mb-card-200 text-[22px] leading-normal font-semibold transition-colors duration-200 peer-hover:text-card-cyan-400">
           Equilibrium #3429
         </h1>
         <p className="mb-card-300 text-[18px] leading-[26px] font-light text-card-blue-500">
