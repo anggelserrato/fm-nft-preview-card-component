@@ -1,23 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
 @import 'tailwindcss';
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./fonts/Outfit.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
 
 @theme {
   --color-card-blue-500: hsl(215, 51%, 70%);
-  --color-card-cyan-400: hsl(178, 100%, 50%);
-  --color-card-blue-950: hsl(217, 54%, 11%);
-  --color-card-blue-900: hsl(216, 50%, 16%);
   --color-card-blue-800: hsl(215, 32%, 27%);
-  --font-card-outfit: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  --color-card-blue-900: hsl(216, 50%, 16%);
+  --color-card-blue-950: hsl(217, 54%, 11%);
+  --color-card-cyan-400: hsl(178, 100%, 50%);
+  --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
   --spacing-card-0: 0px;
-  --spacing-card-100: 8px;
-  --spacing-card-200: 16px;
-  --spacing-card-300: 24px;
+  --spacing-card-100: 0.5rem;
+  --spacing-card-200: 1rem;
+  --spacing-card-300: 1.5rem;
 }
 
 @layer base {
+  html {
+    @apply antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   body {
     background-color: var(--color-card-blue-950);
-    font-family: var(--font-card-outfit);
   }
+}
+
+@utility text-preset-1 {
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.25;
+  letter-spacing: 0px;
+}
+
+@utility text-preset-2 {
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.45;
+  letter-spacing: 0px;
+}
+
+@utility text-preset-3-semibold {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25;
+  letter-spacing: 0px;
+}
+
+@utility text-preset-3-regular {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25;
+  letter-spacing: 0px;
 }
