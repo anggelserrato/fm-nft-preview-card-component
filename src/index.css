@@ -14,7 +14,7 @@
   --color-card-blue-950: hsl(217, 54%, 11%);
   --color-card-cyan-400: hsl(178, 100%, 50%);
   --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
-  --spacing-card-0: 0px;
+  --spacing-card-0: 0rem;
   --spacing-card-100: 0.5rem;
   --spacing-card-200: 1rem;
   --spacing-card-300: 1.5rem;
@@ -53,7 +53,7 @@
 }
 
 @utility text-preset-3-regular {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.25;
   letter-spacing: 0px;
